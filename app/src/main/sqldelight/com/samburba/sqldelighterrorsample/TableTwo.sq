@@ -1,0 +1,6 @@
+import com.samburba.sqldelighterrorsample.TableTwo;
+
+CREATE TABLE table_two(
+    _id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    type TEXT AS TableTwo.Type
+);
